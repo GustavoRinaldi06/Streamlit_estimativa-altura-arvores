@@ -107,7 +107,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-st.title("🌳 Sistema de Estimativa de Altura de Árvores e Sombras")
+st.title("🌳 Sistema de Estimativa de Altura de Árvores")
 st.markdown(
     "Ferramenta para análise e predição de altura de árvores utilizando "
     "imagens de satélite/drone e inferência YOLO."
