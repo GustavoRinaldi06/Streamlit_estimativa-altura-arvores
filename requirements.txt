@@ -1,0 +1,7 @@
+streamlit
+streamlit-image-coordinates
+ultralytics
+opencv-python-headless
+pillow
+pysolar
+numpy
