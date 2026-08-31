@@ -192,7 +192,7 @@ def analisar_arvores_sombras(
         # Monta o texto de resultado para anexar na imagem
         texto = f"R:{valor_raio_m:.1f}m | S:{valor_sombra_m:.1f}m | H:{altura_estimada_m:.1f}m"
         text_y = cy - 10 if cy - 10 > 10 else cy + 20
-        (w_text, h_text), _ = cv2.getTextSize(texto, cv2.FONT_HERSHEY_SIMPLEX, 0.4, 1)
+        (w_text, h_text), _ = cv2.getTextSize(texto, cv2.FONT_HERSHEY_SIMPLEX, 0.8, 2)
         cv2.rectangle(vis_img, (cx - 20, text_y - h_text - 2), (cx - 20 + w_text, text_y + 2), (0,0,0), -1)
         cv2.putText(vis_img, texto, (cx - 20, text_y), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 255, 255), 1, cv2.LINE_AA)
     
